@@ -1,6 +1,6 @@
 <%@ Control Language="c#" AutoEventWireup="false" Inherits="Votations.NSurvey.WebAdmin.UserControls.HeaderControl"
     TargetSchema="http://schemas.microsoft.com/intellisense/ie5" CodeBehind="HeaderControl.ascx.cs" %>
-<table style="padding:0px; border:0px; width:770px;">
+<table style="padding:0px; border:0px;" id="topCellTable">
     <tr>
         <td class="headerCell" style="text-align:right;">
             
@@ -14,7 +14,7 @@
         </td>
     </tr>
     <tr>
-        <td style="padding-top:23px; padding-left:5px; width:100%;" colspan="2">
+        <td style="padding-top:43px; padding-left:5px; width:100%;" colspan="2">
 
             <asp:Menu ID="mnuMain"  RenderingMode="List" CssClass="mnuMain" StaticDisplayLevels="1"
                 Orientation="Horizontal" 

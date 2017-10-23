@@ -52,7 +52,7 @@ namespace Votations.NSurvey.WebAdmin.UserControls
 
 		private void Page_Load(object sender, System.EventArgs e)
 		{
-			VersionLiteral.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+			//VersionLiteral.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 		}
 	}
 }

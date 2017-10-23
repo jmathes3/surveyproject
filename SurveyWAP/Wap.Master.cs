@@ -161,9 +161,9 @@ namespace Votations.NSurvey
         private void LocalizePage()
         {
 
-            Disclaimer.Text = ((PageBase)Page).GetPageResource("Disclaimer");
-            Theme.InnerHtml = ((PageBase)Page).GetPageResource("SpFrontPageTheme");
-            LdTitle.InnerHtml = ((PageBase)Page).GetPageResource("DisclaimerTitle");
+            //Disclaimer.Text = ((PageBase)Page).GetPageResource("Disclaimer");
+            //Theme.InnerHtml = ((PageBase)Page).GetPageResource("SpFrontPageTheme");
+            //LdTitle.InnerHtml = ((PageBase)Page).GetPageResource("DisclaimerTitle");
         }
 
         public void ViewBanners()

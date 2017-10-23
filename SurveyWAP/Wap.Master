@@ -10,17 +10,19 @@
 <html>
 <head runat="server">
 
-    <title>Survey&#8482; Project Webapplication</title>
+    <title>VDEM LCAR</title>
     <meta charset="UTF-8" />
 
-    <meta name="application-name" content="Survey&trade; Project Webapplication" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="application-name" content="VDEM LCAR" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 
-    <meta name="DESCRIPTION" content="SurveyProject&trade;  is a free and open source survey and (data entry) forms webapplication for processing & gathering data online." />
-    <meta name="KEYWORDS" content="surveyproject, survey, webform, questionnaire, nsurvey, w3devpro" />
-    <meta name="COPYRIGHT" content=" 2017 &lt;href='http://www.w3devpro.com'>W3DevPro&lt;/a>" />
-    <meta name="GENERATOR" content="SurveyProject&trade; " />
-    <meta name="AUTHOR" content="W3DevPro" />
+    <meta name="DESCRIPTION" content="LCAR is a survey tool for local capability of readiness" />
+    <meta name="KEYWORDS" content="lcar vdem survey local readiness" />
+    <meta name="COPYRIGHT" content=" 2017 VDEM" />
+    <meta name="GENERATOR" content="LCAR" />
+    <meta name="AUTHOR" content="VDEM" />
 
     <meta name="RESOURCE-TYPE" content="DOCUMENT" />
     <meta name="DISTRIBUTION" content="GLOBAL" />
@@ -75,6 +77,8 @@
         <script src="Scripts/respond.min.js"></script>
     <![endif]-->
 
+
+
 </head>
 <body>
 
@@ -86,7 +90,7 @@
   </script>
 
 
-    <div id="container" style="position: relative; text-align: center; width: 1030px;
+    <div id="container" style="position: relative; text-align: center;
         margin-left: auto; margin-right: auto; ">
 
         <form id="MasterForm" runat="server">
@@ -94,9 +98,8 @@
         <div id="Top" style="position: absolute; 
            left: 0px; 
            top: 0px;  
-           height: 120px; 
-           width:1025px;
-            background-color: #4169E1; 	
+           height: 140px; 
+            background-color: #2C8CC4; 	
             border: 2px; 
             border-color: #ffffff;
             border-style: outset;
@@ -105,20 +108,21 @@
             -webkit-border-radius: 7px;
             -moz-border-radius: 7px;
             border-radius: 7px;" >
-
+            <img src="~/Images/LCAR_Logo.png" runat="server" style="float:left; margin-left: 60px; margin-top: 10px;" />
 
             <asp:Panel id="logoPanel" runat="server"  CssClass="topCell logoPanel"> 
                 <!--
-                <a href="<%= Page.ResolveUrl("~")%>default.aspx" title="Survey&#8482; Project Homepage" target="_self">
+                <a href="<%= Page.ResolveUrl("~")%>default.aspx" title="LCAR Homepage" target="_self">
                  <asp:Image ID="spLogo" runat="server" ImageUrl="~/Images/splogo.svg" AlternateText="SP Logo" />
                 </a>
                 -->
                             
-<div style="font-size: 4vw;margin-top:-20px;width: 550px;">
-      <a href="<%= Page.ResolveUrl("~")%>default.aspx" title="Survey&#8482; Project Homepage" target="_self">
-        <span style="color: #5bc0de;float:left;margin-right: 10px;" class="fa fa-pencil-square-o"></span>
-        <span style="color: #5cb85c;margin-top: 10px;" class="fa fa-check-square-o"></span>
-                         <h1 id="logoText" runat="server" style="color: white;float:right;font-weight:800; margin-right:40px;">Survey™ Project  </h1>
+<div style="font-size: 4vw;margin-top:-20px;width: 1050px;">
+      <a href="<%= Page.ResolveUrl("~")%>default.aspx" title="VDEM LCAR" target="_self">
+        <%--<span style="color: #5bc0de;float:left;margin-right: 10px;" class="fa fa-pencil-square-o"></span>
+        <span style="color: #5cb85c;margin-top: 10px;" class="fa fa-check-square-o"></span>--%>
+          
+                         <h1 id="logoText" runat="server" style="color: white;float:left;font-weight:500; margin-right:120px;">Local Capability Assessment for Readiness</h1>
      </a>
           </div>
 
@@ -133,7 +137,7 @@
 
             border-top: 2px white outset ; 
             border-right: 0px white outset ; 
-            border-bottom: 2px white outset ; 
+            /*border-bottom: 2px white outset ;*/ 
 
             -webkit-border-top-right-radius: 7px;
             -webkit-border-bottom-right-radius: 7px;
@@ -150,8 +154,8 @@
 
 
 
-        <div id="leftNavDiv" style="position: absolute; left: 0px; top: 125px; width: 250px;
-            text-align: left; height:750px; overflow:auto; background: none repeat scroll 0 0 #EAEAEC;">
+        <div id="leftNavDiv" style="position: absolute; left: 0px; top: 140px; width: 250px; z-index: 2;
+            text-align: left; height:740px; overflow:auto; background: none repeat scroll 0 0 #EAEAEC;">
 
             <uc1:SurveyTree ID="surveyTree1" runat="server"></uc1:SurveyTree>
 
@@ -159,32 +163,24 @@
             text-align:center; height:auto; overflow:hidden;">
 
 
-                                            <div class="Social-Links" style="height: auto; margin-top:0px; font-size:2.1vw;">
-                                <a href="http://www.facebook.com/surveyproject" target="_blank" title="SP Facebook">
+                            <div class="Social-Links" style="height: auto; margin-top:0px; font-size:2.1vw;">
+                                <a href="http://www.facebook.com/VDEM" target="_blank" title="VDEM Facebook">
                                     <span class="fa fa-inverse fa-facebook-square"></span></a>
-                                <a href="http://t.co/ciC3YNV" target="_blank" title="SP LinkedIn">
-                                   <span class="fa fa-inverse fa-linkedin-square"></span></a>
-                                <a href="http://www.twitter.com/surveyprojects" target="_blank" title="SP Twitter">
+                                <a href="http://www.twitter.com/VDEM" target="_blank" title="VDEM Twitter">
                                     <span class="fa fa-inverse fa-twitter"></span></a>
-                                <a href="http://www.youtube.com/TheSurveyProject" target="_blank" title="SP YouTube">
+                                <a href="http://www.youtube.com/VDEM" target="_blank" title="VDEM YouTube">
                                     <span class="fa fa-inverse fa-youtube"></span></a>
                             </div>
 
 
-                <h3 id="Theme" runat="server" style="color:#5bc0de;">The open source webapplication to create and publish surveys and webforms online.</h3>
+               <%-- <h3 id="Theme" runat="server" style="color:#EAEAEC;">Change Me - LCAR</h3>--%>
 
-                <table title="Survey&#8482; Project Login Table" style="width:180px;">
+                <table title="LCAR Login Table" style="width:180px;">
 
                     <tr>
                         <td colspan="2">
                            
-    <div style="font-size: 2.5vw; margin: 20px;">
-
-        <span class="fa fa-inverse  fa-tablet"></span>
-                <span style="color: #f0ad4e;" class="fa fa-inverse fa-laptop"></span>
-        <span class="fa fa-inverse fa-mobile"></span>
-
-    </div>
+    
 
                         </td>
                     </tr>
@@ -199,7 +195,7 @@
 
                             <!-- Disclaimer Panel -->
 
-                            <div class="disclaimer-panel-group panel-group">
+                            <%--<div class="disclaimer-panel-group panel-group">
                                 <div class="panel panel-default" style="border: none; overflow: hidden;">
 
                                     <div class="panel-heading" style="background-color: transparent; background-image: linear-gradient(to bottom,rgba(183, 38, 38, 0) 0,rgba(232, 232, 232, 0) 100%); border: none; border-color: white;">
@@ -219,8 +215,14 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div>--%>
+                            <div style="font-size: 12px; margin: 20px;">
+        <a href="Content/VDEM_LCAR_2017.pdf">Download Survey PDF (120kb)</a>
+        <%--<span class="fa fa-inverse  fa-tablet"></span>
+                <span style="color: #f0ad4e;" class="fa fa-inverse fa-laptop"></span>
+        <span class="fa fa-inverse fa-mobile"></span>--%>
 
+    </div>
                         </td>
 
                     </tr>
@@ -231,7 +233,7 @@
 
         </div>
 
-        <div id="Default" style="position: absolute; left: 250px; top: 125px; width: 778px;">
+        <div id="Default" style="position: absolute; left: 0px; top: 140px; width: 100%;">
 
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="Server">
                 </asp:ContentPlaceHolder>

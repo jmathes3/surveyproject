@@ -33,7 +33,7 @@ namespace Votations.NSurvey.WebAdmin
         private void LocalizePage()
         {
 
-            Slogan.InnerHtml = GetPageResource("SpFrontPageSlogan");
+            //Slogan.InnerHtml = GetPageResource("SpFrontPageSlogan");
 
         }
 

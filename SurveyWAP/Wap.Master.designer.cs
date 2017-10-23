@@ -67,15 +67,6 @@ namespace Votations.NSurvey {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl banners;
         
         /// <summary>
-        /// Theme control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Theme;
-        
-        /// <summary>
         /// LoginBox1 control.
         /// </summary>
         /// <remarks>
@@ -83,24 +74,6 @@ namespace Votations.NSurvey {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Votations.NSurvey.WebAdmin.NSurveyAdmin.UserControls.LoginBox LoginBox1;
-        
-        /// <summary>
-        /// LdTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor LdTitle;
-        
-        /// <summary>
-        /// Disclaimer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Disclaimer;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

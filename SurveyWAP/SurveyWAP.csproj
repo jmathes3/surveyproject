@@ -175,6 +175,7 @@
     <Content Include="Images\edit_pen.gif" />
     <Content Include="Images\help.gif" />
     <Content Include="Images\index-icon.png" />
+    <Content Include="Images\LCAR_Logo.png" />
     <Content Include="Images\lock.gif" />
     <Content Include="Images\menuseparator.gif" />
     <Content Include="Images\NegativeRatingBar.gif" />
@@ -187,6 +188,7 @@
     <Content Include="Images\spot_off.gif" />
     <Content Include="Images\spot_on.gif" />
     <Content Include="Images\submenuseparator.gif" />
+    <Content Include="Images\vdemlogo.png" />
     <Content Include="Images\view.png" />
     <Content Include="Images\warning-icn.png" />
     <Content Include="Images\yellowwarning_16px.gif" />
@@ -1066,6 +1068,7 @@
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\CHANGES.md" />
     <Content Include="NSurveyAdmin\Images\images_list.json" />
+    <Content Include="Content\VDEM_LCAR_2017.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />

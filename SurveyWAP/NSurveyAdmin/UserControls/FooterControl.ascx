@@ -1,8 +1,5 @@
 <%@ Control Language="c#" AutoEventWireup="false" Inherits="Votations.NSurvey.WebAdmin.UserControls.FooterControl" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" Codebehind="FooterControl.ascx.cs" %>
 
 
-<div class="bottomCell"><small>
-Powered by <a href="http://www.surveyproject.org" target="_blank" title="Survey&#8482; Project Community">Survey&#8482; Project</a>
-     (<asp:Literal id="VersionLiteral" runat="server"></asp:Literal>) |  
-(c) 2009 - 2017 <a href="http://www.w3devpro.com" target="_blank" title="W3DevPro Website">W3DevPro&#8482;</a>. All rights reserved.</small></div>
+<div class="bottomCell"><small>Local Capability Assessment for Readiness (LCAR) |  &copy; 2017 Virginia Department of Emergency Management. All rights reserved.</small></div>
 

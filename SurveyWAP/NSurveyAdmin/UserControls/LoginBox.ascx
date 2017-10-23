@@ -4,7 +4,7 @@
                     <asp:Label ID="MessageLabel" runat="server" CssClass="errorMessage"  Visible="False"></asp:Label>
                     </div>
 
-                    <div style="margin-left:10px; margin-top:40px;
+                    <div style="margin-left:10px; margin-top:50px;
                     background-color:rgba(221,221,221,0.3); 
                     border: 1px solid white ;
                     -moz-border-radius: 0.45em; 
