@@ -11,12 +11,12 @@
 
     </script>
 
-            <div style="position: absolute; width: 650px; text-align: center; margin-left: 57px; top: 6px;">
+            <div style="position: absolute; text-align: center; margin-left: 57px; top: 6px;">
  <asp:Label ID="MessageLabel" runat="server"  CssClass="errorMessage" Visible="False"></asp:Label>
                 </div>
             <br />
                       
-   <fieldset style="width:750px; margin-left:12px; margin-top:15px;" title="">
+   <fieldset style="margin-left:12px; margin-top:15px;" title="">
         <legend class="titleFont titleLegend">
            <asp:Literal ID="QuestionGroupLegend" runat="server" EnableViewState="false">Question Groups</asp:Literal> 
 
@@ -36,7 +36,7 @@
                 <asp:LinkButton runat="server" ID="lbAddNew" OnClick="OnAddNewGroup" Text="Add new"></asp:LinkButton>
   </li><li>
       <div class="rounded_corners">
-                <asp:GridView runat="server" ID="gvGroups" Width="100%" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#FFF6BB" ShowFooter="True"  FooterStyle-BackColor="#FFDF12" FooterStyle-BorderStyle="None" FooterStyle-BorderColor="#E2E2E2">
+                <asp:GridView runat="server" ID="gvGroups" Width="100%" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#a4d7f4" ShowFooter="True"  FooterStyle-BackColor="#f8f8f8" FooterStyle-BorderStyle="None" FooterStyle-BorderColor="#E2E2E2">
                     <Columns>
                         <asp:TemplateField HeaderText="Order" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center"
                             ItemStyle-Wrap="true" ItemStyle-Width="230px" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
@@ -64,7 +64,7 @@
                         <asp:TemplateField ItemStyle-Wrap="true" HeaderText="Edit" ItemStyle-Width="230px" ItemStyle-HorizontalAlign="Center"
                             HeaderStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton1" runat="server" Text="<img src='../Images/edit.gif'>"
+                                <asp:LinkButton ID="LinkButton1" runat="server" Text="<img src='../Images/edit.png'>"
                                     OnCommand="OnGroupEdit" CommandName="GroupEdit" CommandArgument='<%#Eval("ID")%>'
                                     CssClass="hyperlink" /></ItemTemplate>
                             <EditItemTemplate>
@@ -78,7 +78,7 @@
                         <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="230px" ItemStyle-HorizontalAlign="Center"
                             HeaderStyle-HorizontalAlign="Center" HeaderText="Delete"  HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton2" runat="server" Text="<img src='../Images/delete.gif'>"
+                                <asp:LinkButton ID="LinkButton2" runat="server" Text="<img src='../Images/delete.png'>"
                                     OnClientClick="return ConfirmGroupDelete();" OnCommand="OnGroupDelete" CommandName="GroupDelete"
                                     CommandArgument='<%#Eval("ID")%>' CssClass="hyperlink" /></ItemTemplate>
                             <EditItemTemplate>
@@ -97,7 +97,7 @@
                 <asp:LinkButton runat="server" ID="lbAddNewSubGroup" OnClick="OnAddNewSubGroup" Text="Add new"></asp:LinkButton>
       </li><li>
           <div class="rounded_corners">
-                <asp:GridView runat="server" ID="gvSubGroup" Width="100%" AutoGenerateColumns="false" ShowHeaderWhenEmpty="true" AlternatingRowStyle-BackColor="#FFF6BB" ShowFooter="True"  FooterStyle-BackColor="#FFDF12" FooterStyle-BorderStyle="None" FooterStyle-BorderColor="#E2E2E2">
+                <asp:GridView runat="server" ID="gvSubGroup" Width="100%" AutoGenerateColumns="false" ShowHeaderWhenEmpty="true" AlternatingRowStyle-BackColor="#a4d7f4" ShowFooter="True"  FooterStyle-BackColor="#f8f8f8" FooterStyle-BorderStyle="None" FooterStyle-BorderColor="#E2E2E2">
                     <Columns>
                         <asp:TemplateField HeaderText="Order" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center"
                             ItemStyle-Wrap="true" ItemStyle-Width="180px" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
@@ -123,7 +123,7 @@
                         <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="180px" ItemStyle-HorizontalAlign="Center"
                             HeaderStyle-HorizontalAlign="Center" HeaderText="Edit" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton1" runat="server" Text="<img src='../Images/edit.gif'>"
+                                <asp:LinkButton ID="LinkButton1" runat="server" Text="<img src='../Images/edit.png'>"
                                     OnCommand="OnSubGroupEdit" CommandName="GroupEdit" CommandArgument='<%#Eval("ID")%>'
                                     CssClass="hyperlink" /></ItemTemplate>
                             <EditItemTemplate>
@@ -137,7 +137,7 @@
                         <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="180px" ItemStyle-HorizontalAlign="Center"
                             HeaderStyle-HorizontalAlign="Center" HeaderText="Delete" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6"  ItemStyle-BorderWidth="1px" ItemStyle-BorderStyle="Solid" ItemStyle-BorderColor="#E2E2E2">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton2" runat="server" Text="<img src='../Images/delete.gif'>"
+                                <asp:LinkButton ID="LinkButton2" runat="server" Text="<img src='../Images/delete.png'>"
                                     OnClientClick="return ConfirmGroupDelete();" OnCommand="OnSubGroupDelete" CommandName="GroupDelete"
                                     CommandArgument='<%#Eval("ID")%>' CssClass="hyperlink" /></ItemTemplate>
                             <EditItemTemplate>

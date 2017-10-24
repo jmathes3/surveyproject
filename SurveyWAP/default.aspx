@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="Wap.Master" ValidateRequest="true" AutoEventWireup="false" CodeBehind="default.aspx.cs" Inherits="Votations.NSurvey.WebAdmin._default" %>
 
 <asp:content id="Content1" contentplaceholderid="ContentPlaceHolder1" runat="Server">
-    <script type="text/javascript">
+    <%--<script type="text/javascript">
 
         function loginHere() {
             document.getElementById("leftNavDiv").style.display = "inline";
@@ -9,12 +9,17 @@
         }
 
 
-    </script>
+    </script>--%>
+    <style>
+        #leftNavDiv{
+            display: inline;
+        }
+    </style>
     <div>
         <h1>Welcome to the LCAR Online Survey Tool</h1>
         <p>
             Getting Started<br />
-            To submit your LCAR survey, please <a href="javascript:loginHere()">log in</a>.<br /><br />
+            To submit your LCAR survey, please <a href="#">log in</a>.<br /><br />
 
             If you do not have a user account or have forgotten your login information, please contact VDEM.
         </p>

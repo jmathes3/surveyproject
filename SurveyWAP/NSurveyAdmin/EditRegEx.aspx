@@ -7,11 +7,11 @@
     <div id="mainBody" class="mainBody contentHolder ps-container">
         <div id="Panel" class="Panel content">
           
-            <div style="position: absolute; width: 650px; text-align: center; margin-left: 57px; top: 11px;">
+            <div style="position: absolute; text-align: center; margin-left: 57px; top: 11px;">
  <asp:Label ID="MessageLabel" runat="server"  CssClass="errorMessage" Visible="False"></asp:Label>
                 </div>
   <br />
-                                 <fieldset style="width:750px; margin-left:12px; margin-top:19px;" title="">
+                                 <fieldset style="margin-left:12px; margin-top:19px;" title="">
         <legend class="titleFont titleLegend"><asp:Literal ID="RegExLibraryTitle" runat="server" Text="RegEx library" EnableViewState="False"></asp:Literal>
 
         </legend>

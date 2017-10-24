@@ -153,7 +153,9 @@
     <Content Include="Images\arrow-red-down.gif" />
     <Content Include="Images\arrow-right.gif" />
     <Content Include="Images\arrow_down.gif" />
+    <Content Include="Images\arrow_down.png" />
     <Content Include="Images\arrow_up.gif" />
+    <Content Include="Images\arrow_up.png" />
     <Content Include="Images\back_button.gif" />
     <Content Include="Images\Bar\BarOff.gif" />
     <Content Include="Images\Bar\BarOn_Black.gif" />
@@ -172,11 +174,14 @@
     <Content Include="Images\close-icn.png" />
     <Content Include="Images\delete.gif" />
     <Content Include="Images\edit.gif" />
+    <Content Include="Images\edit.png" />
     <Content Include="Images\edit_pen.gif" />
+    <Content Include="Images\edit_pen.png" />
     <Content Include="Images\help.gif" />
     <Content Include="Images\index-icon.png" />
     <Content Include="Images\LCAR_Logo.png" />
     <Content Include="Images\lock.gif" />
+    <Content Include="Images\lock.png" />
     <Content Include="Images\menuseparator.gif" />
     <Content Include="Images\NegativeRatingBar.gif" />
     <Content Include="Images\PositiveRatingBar.gif" />

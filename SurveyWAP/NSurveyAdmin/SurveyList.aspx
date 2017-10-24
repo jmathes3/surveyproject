@@ -71,9 +71,9 @@
                                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyTitle") %>' /> &nbsp;
                                                 </td>
                                                 <td style="width:15%;">
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.png" CommandName="sort"
                                                         CommandArgument="Title ASC" /><br />
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.png" CommandName="sort"
                                                         CommandArgument="Title DESC" />
                                                 </td>
                                             </tr>
@@ -92,9 +92,9 @@
                                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyStatus") %>' />  &nbsp;
                                                 </td>
                                                 <td>
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.png" CommandName="sort"
                                                         CommandArgument="Activated ASC" /><br />
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.png" CommandName="sort"
                                                         CommandArgument="Activated DESC" />
                                                 </td>
                                             </tr>
@@ -112,9 +112,9 @@
                                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyResponses") %>' /> &nbsp;
                                                 </td>
                                                 <td>
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.png" CommandName="sort"
                                                         CommandArgument="VoterNumber ASC" /><br />
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.png" CommandName="sort"
                                                         CommandArgument="VoterNumber DESC" />
                                                 </td>
                                             </tr>
@@ -132,9 +132,9 @@
                                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyCreated") %>' /> &nbsp;
                                                 </td>
                                                 <td>
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_up.png" CommandName="sort"
                                                         CommandArgument="CreationDate ASC" /><br />
-                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.gif" CommandName="sort"
+                                                    <asp:ImageButton runat="server" ImageUrl="~/Images/arrow_down.png" CommandName="sort"
                                                         CommandArgument="CreationDate DESC" />
                                                 </td>
                                             </tr>
@@ -145,39 +145,39 @@
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 
-                                <asp:TemplateField  ItemStyle-Wrap="true" ItemStyle-Width="7%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderStyle="Solid" ItemStyle-BorderWidth="1px" ItemStyle-BorderColor="#E2E2E2">
+                                <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="7%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderStyle="Solid" ItemStyle-BorderWidth="1px" ItemStyle-BorderColor="#E2E2E2" ControlStyle-CssClass="gridAlignCenter" HeaderStyle-CssClass="gridAlignCenter">
                                     <HeaderTemplate>
                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyEdit") %>' />
                                     </HeaderTemplate>
                                     <ItemTemplate>
                                     <!--     <asp:LinkButton runat="server" Text='<%#GetPageResource("SurveyEdit")%>' OnCommand="OnSurveyEdit"
                                             CommandName="SurveyEdit" CommandArgument='<%#Eval("SurveyID")%>' CssClass="hyperlink" /> -->
-                                                    <asp:ImageButton runat="server" ToolTip="Edit Survey Information" ImageUrl="~/Images/edit.gif" OnCommand="OnSurveyEdit"
+                                                    <asp:ImageButton runat="server" ToolTip="Edit Survey Information" ImageUrl="~/Images/edit.png" OnCommand="OnSurveyEdit"
                                             CommandName="SurveyEdit" CommandArgument='<%#Eval("SurveyID")%>' />                                               
                                             
                                             </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="6%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderColor="#E2E2E2" ItemStyle-BorderStyle="Solid" ItemStyle-BorderWidth="1px">
+                                <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-Width="6%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderColor="#E2E2E2" ItemStyle-BorderStyle="Solid" ItemStyle-BorderWidth="1px" ControlStyle-CssClass="gridAlignCenter" HeaderStyle-CssClass="gridAlignCenter">
                                     <HeaderTemplate>
                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveySecurity") %>' />
                                     </HeaderTemplate>
                                     <ItemTemplate>
                                <!--         <asp:LinkButton runat="server" Text='<%#GetPageResource("SurveySecurity")%>' OnCommand="OnSurveySecurity"
                                             CommandName="SurveySecurity" CommandArgument='<%#Eval("SurveyID")%>' CssClass="hyperlink" /> -->
-                                                    <asp:ImageButton runat="server" ToolTip="Survey Security Settings" ImageUrl="~/Images/lock.gif" OnCommand="OnSurveySecurity"
+                                                    <asp:ImageButton runat="server" ToolTip="Survey Security Settings" ImageUrl="~/Images/lock.png" OnCommand="OnSurveySecurity"
                                             CommandName="SurveySecurity" CommandArgument='<%#Eval("SurveyID")%>'  />                                            
                                             
                                      </ItemTemplate>
 
                                 </asp:TemplateField>
-                                <asp:TemplateField ItemStyle-Wrap="true"  ItemStyle-Width="9%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderWidth="1px" ItemStyle-BorderColor="#E2E2E2" ItemStyle-BorderStyle="Solid">
+                                <asp:TemplateField ItemStyle-Wrap="true"  ItemStyle-Width="9%" ItemStyle-HorizontalAlign="Center" HeaderStyle-BackColor="#e2e2e2" HeaderStyle-BorderColor="#e2e2e2" HeaderStyle-ForeColor="#5720C6" HeaderStyle-HorizontalAlign="Center" ItemStyle-BorderWidth="1px" ItemStyle-BorderColor="#E2E2E2" ItemStyle-BorderStyle="Solid" ControlStyle-CssClass="gridAlignCenter" HeaderStyle-CssClass="gridAlignCenter">
                                     <HeaderTemplate>
                                     <asp:Label runat="server" Text='<%#GetPageResource("SurveyDesign") %>' />
                                     </HeaderTemplate>
                                     <ItemTemplate>
                                        <!-- <asp:LinkButton runat="server" Text='<%#GetPageResource("SurveyDesign")%>' OnCommand="OnSurveyDesign"
                                             CommandName="SurveyDesign" CommandArgument='<%#Eval("SurveyID")%>' CssClass="hyperlink" /> -->
-                                                    <asp:ImageButton runat="server" ToolTip="Survey Form Builder" ImageUrl="~/Images/edit_pen.gif" OnCommand="OnSurveyDesign"
+                                                    <asp:ImageButton runat="server" ToolTip="Survey Form Builder" ImageUrl="~/Images/edit_pen.png" OnCommand="OnSurveyDesign"
                                             CommandName="SurveyDesign" CommandArgument='<%#Eval("SurveyID")%>' />
 
 

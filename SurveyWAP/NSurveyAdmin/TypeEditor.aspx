@@ -7,14 +7,14 @@
     <div id="mainBody" class="mainBody contentHolder ps-container">
         <div id="Panel" class="Panel content">
 
-                            <div style="position: relative; left: 720px; width: 10px;  top: 13px; clear:none;">
+                            <div style="position: relative; text-align: right; top: 13px; clear:none;">
                                 <a onmouseover='this.style.cursor="help" ' onfocus='this.blur();' href="Help/FieldT_Introduction.aspx"
                                     title="Click for more Information">
                                     <img alt="help" border="0" src="<%= Page.ResolveUrl("~")%>Images/small_help.gif" />
                                 </a>
                             </div>
 
-                        <fieldset style="width:750px; margin-left:12px; margin-top:15px;">
+                        <fieldset style="margin-left:12px; margin-top:15px;">
                 <legend class="titleFont titleLegend">
                     <asp:Literal ID="AnswerTypeBuilderTitle" runat="server" EnableViewState="False">Answer type builder</asp:Literal>
                 </legend> <br />

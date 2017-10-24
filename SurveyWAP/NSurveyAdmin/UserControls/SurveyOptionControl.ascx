@@ -16,20 +16,20 @@
     </script>
 
 
-            <div style="position: absolute; width: 650px; text-align: center; margin-left: 57px; top: 4px;">
+            <div style="position: absolute; text-align: center; margin-left: 57px; top: 4px;">
  <asp:Label ID="MessageLabel" runat="server"  CssClass="errorMessage" Visible="False"></asp:Label>
                 </div>
 
 
 <!-- New Survey -->
-                                        <div style="position: relative; left: 720px; width: 10px;  top: 10px; clear:none;">
+                                        <div style="position: relative; text-align:right;  top: 10px; clear:none;">
                                             <a onmouseover='this.style.cursor="help" ' onfocus='this.blur();' href="Help/Survey General Settings.aspx"
                                                 title="Click for more Information">
                                                 <img alt="help" border="0" src="<%= Page.ResolveUrl("~")%>Images/small_help.gif" />
                                             </a>
                                         </div>
 
-            <fieldset style="width: 750px; margin-left: 12px; margin-top: 15px;" title="Survey Title">
+            <fieldset style="margin-left: 12px; margin-top: 15px;" title="Survey Title">
                 <legend class="titleFont titleLegend">
                     <asp:Literal ID="SurveyInformationTitle2" runat="server" Text=""
                         EnableViewState="False"></asp:Literal></legend>
@@ -60,7 +60,7 @@
 
      <asp:PlaceHolder ID="EditUi" runat="server">
          <br />
-         <fieldset style="width: 750px; margin-left: 12px; margin-top: 15px;" title="Survey Settings">
+         <fieldset style="margin-left: 12px; margin-top: 15px;" title="Survey Settings">
              <legend class="titleFont titleLegend">
                  <asp:Literal ID="SurveyInformationTitle" runat="server" Text="Survey information"
                      EnableViewState="False"></asp:Literal></legend>
@@ -160,7 +160,7 @@
 <!-- Notification Settings -->
 
 
-            <div style="position: relative; left: 720px; width: 10px;  top: 15px; clear:none;">
+            <div style="position: relative; text-align: right; top: 15px; clear:none;">
                 <a onmouseover='this.style.cursor="help" ' onfocus='this.blur();' onclick="document.getElementById('PopUp2').style.display = 'block' ">
                     <img title="Click for more Information" alt="help" src="<%= Page.ResolveUrl("~")%>Images/small_help.gif" />
                 </a>
@@ -175,7 +175,7 @@
                 </div>
             </div>
 
-         <fieldset style="width: 750px; margin-top:15px; margin-left: 12px;" title="Notification Settings">
+         <fieldset style="margin-top:15px; margin-left: 12px;" title="Notification Settings">
              <legend class="titleFont titleLegend">
                  <asp:Literal ID="NotificationSettingsTitle" runat="server" EnableViewState="False" Text="Notification settings"></asp:Literal>
              </legend>
@@ -185,7 +185,7 @@
                  <li>
                      <strong>
                          <asp:Label ID="EntryNotificationLabel" AssociatedControlID="EntryNotificationDropdownlist" runat="server" EnableViewState="False">Entry notification :</asp:Label></strong>
-                     <asp:DropDownList ID="EntryNotificationDropdownlist" runat="server" AutoPostBack="true">
+                     <asp:DropDownList ID="EntryNotificationDropdownlist" runat="server" AutoPostBack="true" CssClass="floatLeft">
                      </asp:DropDownList>
 
                  </li>

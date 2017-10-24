@@ -39,7 +39,7 @@
         <div   id="tab-1"><br />
             <asp:Panel runat="server" ID="LibraryList">
 
-                     <fieldset style="width:730px; margin-left:12px; margin-top:10px;" title="">
+                     <fieldset style="margin-left:12px; margin-top:10px;" title="">
         <legend class="titleFont titleLegend" style="margin:0; width:100%;">
             <asp:Literal ID="LibraryDirectoryLegend" runat="server"  EnableViewState="false">Library Directory</asp:Literal>
 

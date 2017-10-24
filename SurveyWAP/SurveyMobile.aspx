@@ -42,11 +42,12 @@
 
     <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
 </head>
-<body>
+<body style="background: #2C8CC4;">
     
 <IFRAME ID="KeepAliveFrame" src="KeepSessionAlive.aspx" frameBorder="0" width="0" height="0" runat="server"></IFRAME>
 
-        <section id="MainContainer" class="container"><h2 style="visibility:hidden; line-height:0.0em; margin-top:-5px">Survey&trade; Project Webform</h2>
+        <section id="MainContainer" class="container"><h2 style="visibility:hidden; line-height:0.0em; margin-top:-5px">LCAR Webform</h2>
+            <span style="margin-left:15%; font-size: 20px;"><img style="width:200px;" src="Images/vdemlogo.png" /> Local Capability Assessment for Readiness (LCAR)<img src="~/Images/LCAR_Logo.png" runat="server" style="margin-left: 30px;" /></span><br /><br />
             <form id="Form1" class="form-inline" runat="server">
 
                     <header id="ErrorMessageDiv" class="errorMessageDiv">

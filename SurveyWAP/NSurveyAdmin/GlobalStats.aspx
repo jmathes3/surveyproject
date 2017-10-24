@@ -18,7 +18,7 @@
                                             </a>
                                         </div>
         
-            <fieldset style="width: 750px; margin-left: 12px; margin-top: 15px;">
+            <fieldset style="margin-left: 12px; margin-top: 15px;">
                  <legend class="titleFont titleLegend">
                     <asp:Literal id="SurveyStatisticsTitle" runat="server" EnableViewState="False">Survey statistics</asp:Literal>
                 </legend> <br />

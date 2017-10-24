@@ -5,14 +5,14 @@
         <div id="mainBody" class="mainBody contentHolder ps-container">
         <div id="Panel" class="Panel content">
 
-                        <div style="position: relative; left: 720px; width: 10px; top: 13px; clear: none;">
+                        <div style="position: relative; text-align: right; top: 13px; clear: none;">
                 <a onmouseover='this.style.cursor="help" ' onfocus='this.blur();' href="Help/CssXml.aspx"
                     title="Click for more Information">
                     <img alt="help" border="0" src="<%= Page.ResolveUrl("~")%>Images/small_help.gif" />
                 </a>
             </div>
 
-                   <fieldset style="width:750px; margin-left:12px; margin-top:15px;">
+                   <fieldset style="margin-left:12px; margin-top:15px;">
         <legend class="titleFont titleLegend">
           <asp:Literal ID="CssXmlLegend" runat="server" EnableViewState="false">Surveylayout CSS XML</asp:Literal>  
         </legend><br />
@@ -73,13 +73,13 @@
 
                     <asp:TemplateField HeaderText="Action" HeaderStyle-Width="10%">
                         <EditItemTemplate>
-                            <asp:ImageButton ID="lbtnUpdate" ImageUrl="~/Images/save.gif" ToolTip="Save" Text="Update" CommandName="Update" runat="server">
+                            <asp:ImageButton ID="lbtnUpdate" ImageUrl="~/Images/save.png" ToolTip="Save" Text="Update" CommandName="Update" runat="server">
                                               </asp:ImageButton>
-                            <asp:ImageButton ID="lbtnCancel" ImageUrl="~/Images/cancel2.gif" ToolTip="Cancel" Text="Cancel" CommandName="Cancel" runat="server">
+                            <asp:ImageButton ID="lbtnCancel" ImageUrl="~/Images/cancel2.png" ToolTip="Cancel" Text="Cancel" CommandName="Cancel" runat="server">
                                               </asp:ImageButton>
                         </EditItemTemplate>
                         <ItemTemplate>
-                            <asp:ImageButton ID="lbtnEdit" ImageUrl="~/Images/edit_pen.gif" ToolTip="Edit" Text="Edit" runat="server" CommandName="Edit">
+                            <asp:ImageButton ID="lbtnEdit" ImageUrl="~/Images/edit_pen.png" ToolTip="Edit" Text="Edit" runat="server" CommandName="Edit">
                                                </asp:ImageButton>
                        <!--     <asp:ImageButton ID="lbtnDelete" ImageUrl="~/Images/delete.gif" ToolTip="Delete" Text="Delete" runat="server" CommandName="Delete">
                                                 </asp:ImageButton> -->
@@ -89,7 +89,7 @@
 
                 </Columns>
 
-                <EditRowStyle BackColor="yellow"></EditRowStyle>
+                <EditRowStyle BackColor="#bce8f1"></EditRowStyle>
 
                 <FooterStyle BackColor="#EFF3FB" Font-Bold="True" ForeColor="White"></FooterStyle>
 
